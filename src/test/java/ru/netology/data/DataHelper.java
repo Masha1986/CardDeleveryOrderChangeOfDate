@@ -19,15 +19,15 @@ public class DataHelper {
     }
 
     public static String getCity() {
-        return faker.address().cityName().replace("Новокузнецк", "Курск").replace("Сочи", "Тула");
+        return faker.address().cityName().replace("Омск", "Томск").replace("Сочи", "Москва");
     }
 
     public static String getAnotherCity() {
-        return faker.address().cityName().replace("Новокузнецк", "Курск").replace("Сочи", "Тула");
+        return faker.address().cityName().replace("Омск", "Томск").replace("Сочи", "Москва");
     }
 
     public static String getLattermostCity() {
-        return faker.address().cityName().replace("Новокузнецк", "Курск").replace("Сочи", "Тула");
+        return faker.address().cityName().replace("Омск", "Томск").replace("Сочи", "Москва");
     }
 
     public static String getFullName() {
